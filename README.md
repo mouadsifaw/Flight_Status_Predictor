@@ -1,17 +1,21 @@
-# Objective
-The goal of this project is to develop and deploy an ML model in which an end user can specify a set of features describing a commercial flight of interest and receive a categorical (yes or no) output indicating if that flight will be delayed more than fifteen minutes or not.
+Project Overview
 
-# Core Values
-This project is a collaborative effort of people from different backgrounds in data science coming together to build cool projects. The goal of this effort is to foster **collaboration**, have people **learn** new and interesting concepts, and build a project which is **usable** by a wider audience other than just the team members.
+This project is my inaugural venture into the world of machine learning, with a focus on understanding the entire lifecycle of a machine learning project. From data preprocessing to model deployment, this project aims to provide a hands-on experience with each critical phase of developing a predictive model, while also emphasizing effective team collaboration.
+Project Goal
 
-The goal is not to simply focusing on building the most complex and advanced model, but to make a working project/product to help collaborators get exposed to the entire lifecycle of a data science project and have them work as a team and learn new skills.
+The primary goal is to develop a predictive model that determines whether a flight will arrive at its destination with a delay of at least 15 minutes. The model utilizes various flight-related features, including:
 
-# Project Phases
-1. Data Collection
-2. Data Preprocessing
-3. EDA
-4. Feature Selection
-5. Model Selection
-6. Model Creation
-7. Model Evaluation and Optimization
-8. Model Deployment
+    Carrier Name
+    Distance to Destination
+    Flight Date
+    Additional relevant attributes
+
+Key Aspects
+
+    Data Preprocessing: Involves cleaning and organizing the dataset to prepare it for analysis.
+    Feature Engineering: Focuses on selecting and creating features that enhance the model's performance.
+    Model Development: Includes training, tuning, and evaluating different machine learning algorithms.
+    Deployment: Prepares the final model for real-world application and implements deployment strategies.
+    Team Collaboration: Highlights the importance of working cohesively with team members, supporting each other through the project lifecycle.
+
+This project is designed not only to build a functional predictive model but also to provide valuable insights into the end-to-end process of machine learning, from conception to deployment.
